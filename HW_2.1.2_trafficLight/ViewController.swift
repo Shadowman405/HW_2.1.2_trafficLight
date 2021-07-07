@@ -23,9 +23,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        redViewLbl.layer.cornerRadius = 90
-        yellowViewLbl.layer.cornerRadius = 90
-        greenViewLbl.layer.cornerRadius = 90
+        redViewLbl.layer.cornerRadius = 70
+        yellowViewLbl.layer.cornerRadius = 70
+        greenViewLbl.layer.cornerRadius = 70
         
         redViewLbl.backgroundColor = .red.withAlphaComponent(0.1)
         yellowViewLbl.backgroundColor = .yellow.withAlphaComponent(0.1)
